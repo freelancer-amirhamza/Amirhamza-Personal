@@ -1,0 +1,134 @@
+/* Defult */
+:root{
+    --primary_color:  rgb(73, 255, 194) ;
+    --gray_color:#ddd;
+    --hover_color:rgb(2, 252, 56);
+}
+a{
+    color: var(--primary_color);
+    text-decoration: none;
+}
+a:hover{
+    color: var(--hover_color);
+}
+.app_btn{
+    width: fit-content;
+    font-weight: bold;
+    margin-top: -14px;
+    background-color: var(--primary_color);
+}
+.app_btn:hover{
+    background-color: var(--hover_color);
+    
+}
+.navbar{
+    position: sticky;
+    top: 0%;
+    z-index: 99999;
+}
+.carousel-item {
+    max-height: 80vh;
+    
+}
+.carousel-caption{
+    background-color: rgba(32, 32, 32, 0.331);
+    background-size: auto;
+    margin: 0% 20%;
+}
+.slide-2 img{
+    margin-top: -300px;
+
+}
+.slide-3 img{
+    margin-top: -220px;
+
+}
+.about img{
+    width: 85%;
+    height: 85%;
+    object-fit: cover;
+    /* width: 24rem; */
+    
+}
+
+.about-content p{
+width: 17rem;
+font-size: 1.3em;
+font-style:oblique;
+background-size: cover;
+}
+.about-content {
+    width: 24rem;
+    background-size: contain;
+    }
+/* cord */
+/* .railline2{
+    height: 30vh;
+    object-fit: cover;
+} */
+.services h1{
+    font-weight: bold;
+    font-style: italic;
+}
+.services h5{
+    font-weight: bold;
+}
+.card_title{
+   
+    padding:0 0 60px 0;
+}
+.services p{
+    font-style: italic ;
+}
+.services-card-image{
+    height: 30vh;
+    object-fit: cover;
+}
+.card:hover{
+    margin-top: -8px;
+    box-shadow: 4px 8px 13px 0px #888888;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+/* footer */
+.footer{
+    color: gray;
+}
+.footer h5{
+    color: rgb(255, 255, 255);
+    font-style: normal !important;
+    
+}
+.footer p{
+    color: #ddd;
+}
+.footer_links{
+    color: #ddd;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left:0%;
+    
+}
+.footer_links i{
+    font-size:24px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+.footer_links i:hover{
+    color: var(--hover_color);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.Social_Media h5{
+    padding-left:46px;
+}
